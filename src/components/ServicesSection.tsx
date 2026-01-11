@@ -27,7 +27,7 @@ const ServicesSection = () => {
     {
       icon: Users,
       title: "Problemas de Adicciones y otras Patologías",
-      description: "Acompañamiento en adicciones y otras patologías psicológicas.",
+      description: "Acompañamiento en adicciones y otras problematicas.",
       color: "bg-accent/10 text-accent"
     },
     {

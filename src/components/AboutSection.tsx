@@ -16,7 +16,7 @@ const AboutSection = () => {
     {
       icon: Users,
       title: "Enfoque Integral",
-      description: "Tratamiento personalizado para cada paciente"
+      description: "Tratamiento personalizado para cada paciente con una mirada completa, permitiendo el trabajo interdiciplinal"
     },
     {
       icon: ShieldCheck,
