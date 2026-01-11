@@ -24,10 +24,11 @@ const HeroSection = () => {
             </h1>
             
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Atención psiquiátrica profesional y empática en adultos (18+ años). Te acompaño en el camino hacia una vida más plena y equilibrada con atencion 
+              Atención psiquiátrica profesional y empática. Te acompaño en el camino hacia una vida más plena y equilibrada con atencion. 
               <span className="text-primary font-bold"> presencial </span> 
               y
               <span className="text-primary font-bold"> virtual</span>.
+              Solo adultos 18+ años
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">

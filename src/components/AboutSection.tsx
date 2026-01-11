@@ -35,7 +35,7 @@ const AboutSection = () => {
             <img
               src={officeImage}
               alt="Consultorio de la Dra. Julieta Hernández"
-              className="relative rounded-3xl shadow-card w-full object-cover aspect-square"
+              className="relative rounded-3xl shadow-card w-full object-cover aspect-[4/3]"
             />
           </div>
 
