@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 200 25% 20%;
 
-    --primary: 180 35% 35%;
+    --primary: 210 40% 45%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 180 25% 92%;
@@ -24,7 +24,7 @@
     --muted: 40 20% 94%;
     --muted-foreground: 200 15% 45%;
 
-    --accent: 12 76% 61%;
+    --accent: 285 50% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -37,25 +37,33 @@
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --teal-light: 180 30% 95%;
-    --teal-medium: 180 35% 45%;
-    --coral: 12 76% 61%;
-    --coral-hover: 12 76% 55%;
+    --teal-light: 210 40% 96%;
+    --teal-medium: 210 40% 45%;
+    --coral: 285 50% 75%;
+    --coral-hover: 285 50% 70%;
     --cream: 40 33% 96%;
     --sage: 150 20% 90%;
 
     /* Fonts */
-    --font-display: 'Playfair Display', serif;
-    --font-body: 'DM Sans', sans-serif;
+    --font-display: "Playfair Display", serif;
+    --font-body: "DM Sans", sans-serif;
 
     /* Shadows */
     --shadow-soft: 0 4px 20px -4px hsl(180 35% 35% / 0.1);
     --shadow-card: 0 8px 30px -8px hsl(180 35% 35% / 0.12);
-    --shadow-glow: 0 0 40px hsl(12 76% 61% / 0.3);
+    --shadow-glow: 0 0 40px hsl(285 50% 75% / 0.3);
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(40 33% 98%) 0%, hsl(180 30% 95%) 100%);
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(40 20% 98%) 100%);
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(40 33% 98%) 0%,
+      hsl(180 30% 95%) 100%
+    );
+    --gradient-card: linear-gradient(
+      180deg,
+      hsl(0 0% 100%) 0%,
+      hsl(40 20% 98%) 100%
+    );
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -77,7 +85,7 @@
     --popover: 200 25% 12%;
     --popover-foreground: 40 33% 95%;
 
-    --primary: 180 35% 55%;
+    --primary: 210 40% 65%;
     --primary-foreground: 200 25% 10%;
 
     --secondary: 200 20% 18%;
@@ -86,7 +94,7 @@
     --muted: 200 20% 18%;
     --muted-foreground: 200 15% 60%;
 
-    --accent: 12 76% 61%;
+    --accent: 285 50% 75%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -116,7 +124,12 @@
     @apply bg-background text-foreground font-body antialiased;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-display;
   }
 }
@@ -184,7 +197,8 @@
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {

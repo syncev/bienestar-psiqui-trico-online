@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Award, Clock, Heart } from "lucide-react";
-import heroImage from "@/assets/Dra-Julieta-Hernandez.jpg";
+import heroImage from "@/assets/office-calm.jpg";
 
 const HeroSection = () => {
   const whatsappLink = "https://wa.me/2616956909?text=Hola%2C%20me%20gustaría%20agendar%20una%20consulta";
@@ -24,7 +24,10 @@ const HeroSection = () => {
             </h1>
             
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Atención psiquiátrica profesional y empática. Te acompaño en el camino hacia una vida más plena y equilibrada.
+              Atención psiquiátrica profesional y empática en adultos (18+ años). Te acompaño en el camino hacia una vida más plena y equilibrada con atencion 
+              <span className="text-primary font-bold"> presencial </span> 
+              y
+              <span className="text-primary font-bold"> virtual</span>.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -72,7 +75,7 @@ const HeroSection = () => {
               <img
                 src={heroImage}
                 alt="Dra. Julieta Hernandez - Psiquiatra"
-                className="relative rounded-3xl shadow-card w-full max-w-md lg:max-w-lg object-cover aspect-[4/5]"
+                className="relative rounded-3xl shadow-card w-full max-w-md lg:max-w-lg aspect-[4/4] object-cover"
               />
               <div className="absolute -bottom-4 -left-4 bg-card rounded-2xl p-4 shadow-card">
                 <div className="flex items-center gap-3">

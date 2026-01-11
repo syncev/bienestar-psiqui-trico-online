@@ -13,7 +13,7 @@ const Footer = () => {
               Dra. Julieta Hernández
             </span>
             <p className="font-body text-sm text-background/60 mt-1">
-              Médica Psiquiatra | MN 123456
+              Médica Psiquiatra 
             </p>
           </div>
 

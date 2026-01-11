@@ -26,8 +26,8 @@ const ServicesSection = () => {
     },
     {
       icon: Users,
-      title: "Problemas de Pareja y Familia",
-      description: "Orientación para conflictos relacionales y dinámicas familiares.",
+      title: "Problemas de Adicciones y otras Patologías",
+      description: "Acompañamiento en adicciones y otras patologías psicológicas.",
       color: "bg-accent/10 text-accent"
     },
     {

@@ -15,7 +15,7 @@ const ContactSection = () => {
       icon: Clock,
       title: "Horarios de Atención",
       details: "Lunes a Viernes",
-      subDetails: "9:00 - 19:00 hs"
+      subDetails: "10:00 - 19:00 hs"
     },
     {
       icon: Phone,

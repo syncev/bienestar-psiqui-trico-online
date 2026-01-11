@@ -1,17 +1,17 @@
 import { GraduationCap, Users, ShieldCheck, Stethoscope } from "lucide-react";
-import officeImage from "@/assets/office-calm.jpg";
+import officeImage from "@/assets/Dra-julieta-Hernandez2.jpg";
 
 const AboutSection = () => {
   const credentials = [
     {
       icon: GraduationCap,
       title: "Formación Académica",
-      description: "Medicina - Universidad del Aconcagua"
+      description: "Medicina -  Egresada de la Universidad del Aconcagua, Mendoza - Argentina"
     },
     {
       icon: Stethoscope,
       title: "Especialización",
-      description: "Psiquiatria - Hospital El Carmen"
+      description: "Psiquiatria - Residencia en Hospital El Carmen, Mendoza - Argentina"
     },
     {
       icon: Users,
