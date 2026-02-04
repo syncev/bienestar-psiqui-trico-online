@@ -11,7 +11,7 @@ const AboutSection = () => {
     {
       icon: Stethoscope,
       title: "Especialización",
-      description: "Psiquiatria - Residencia en Hospital El Carmen, Mendoza - Argentina"
+      description: "Psiquiatria - Mendoza - Argentina"
     },
     {
       icon: Users,
@@ -48,7 +48,7 @@ const AboutSection = () => {
               Comprometida con tu salud mental
             </h2>
             <p className="font-body text-lg text-muted-foreground leading-relaxed mb-8">
-              Soy la Dra. Julieta Hernández, psiquiatra con más de 7 años de experiencia acompañando a personas en su camino hacia el bienestar emocional. Mi enfoque combina la medicina basada en evidencia con una mirada humanista, entendiendo que cada persona es única.
+              Soy la Dra. Julieta Hernández, médica psiquiatra con años de experiencia acompañando a personas en su camino hacia el bienestar emocional. Mi enfoque combina la medicina basada en evidencia con una mirada humanista, entendiendo que cada persona es única.
             </p>
             <p className="font-body text-lg text-muted-foreground leading-relaxed mb-10">
               Creo firmemente en la importancia de crear un espacio de confianza donde puedas expresarte libremente. Juntos trabajaremos para encontrar las mejores estrategias para tu situación particular.

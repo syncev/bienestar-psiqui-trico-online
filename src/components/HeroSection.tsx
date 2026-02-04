@@ -22,12 +22,12 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-3 gap-8 lg:gap-16 items-center min-h-screen py-12 lg:py-0">
           {/* Content */}
           <div className="order-2 lg:order-1 lg:col-span-2 animate-fade-in-up">
-            <div className="inline-flex items-center gap-2 bg-secondary/80 rounded-full px-4 py-2 mb-6">
+            {/* <div className="inline-flex items-center gap-2 bg-secondary/80 rounded-full px-4 py-2 mb-6">
               <Award className="w-4 h-4 text-primary" />
               <span className="text-sm font-body text-secondary-foreground">
                 +7 años de experiencia
               </span>
-            </div>
+            </div> */}
             
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight mb-6">
               Tu bienestar mental es{" "}
@@ -35,11 +35,11 @@ const HeroSection = () => {
             </h1>
             
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Atención psiquiátrica profesional y empática. Te acompaño en el camino hacia una vida más plena y equilibrada con atencion. 
+              Atención psiquiátrica profesional y empática. Te acompaño en el camino hacia una vida más plena y equilibrada. Ofrezco atencion 
               <span className="text-primary font-bold"> presencial </span> 
               y
-              <span className="text-primary font-bold"> virtual</span>.
-              Solo adultos 18+ años
+              <span className="text-primary font-bold"> virtual </span>
+              para adultos +18 años
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
