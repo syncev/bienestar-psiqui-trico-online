@@ -36,7 +36,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Tu bienestar mental es mi prioridad. Te acompaño en el camino hacia una vida más plena y equilibrada. Ofrezco atencion 
+              Tu bienestar mental es mi prioridad. Te acompaño en el camino hacia una vida plena y equilibrada. Ofrezco atencion 
               <span className="text-primary font-bold"> presencial </span> 
               y
               <span className="text-primary font-bold"> virtual </span>
