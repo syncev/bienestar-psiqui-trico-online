@@ -30,12 +30,13 @@ const HeroSection = () => {
             </div> */}
             
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight mb-6">
-              Tu bienestar mental es{" "}
-              <span className="text-primary">mi prioridad</span>
+              Atención{" "}
+              <span className="text-primary">psiquiátrica profesional </span>
+              para adultos
             </h1>
             
             <p className="font-body text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Atención psiquiátrica profesional y empática. Te acompaño en el camino hacia una vida más plena y equilibrada. Ofrezco atencion 
+              Tu bienestar mental es mi prioridad. Te acompaño en el camino hacia una vida más plena y equilibrada. Ofrezco atencion 
               <span className="text-primary font-bold"> presencial </span> 
               y
               <span className="text-primary font-bold"> virtual </span>
